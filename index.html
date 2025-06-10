@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EliteConnect KE | Premium Kenyan Dating & Content Platform</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+</head>
+
+<body>
+  <!-- Header/Navbar -->
+  <!-- Premium Header/Navbar -->
+  <header>
+    <div class="logo">
+      <img src="./datinglogo.png" alt="EliteConnect KE Logo" loading="lazy">
+      <h1>EliteConnect<span>KE</span></h1>
+    </div>
+
+    <nav class="desktop-nav">
+      <ul>
+        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#"><i class="fas fa-fire"></i> Trending</a></li>
+        <li><a href="#"><i class="fas fa-search"></i> Discover</a></li>
+        <li><a href="#"><i class="fas fa-user-friends"></i> Creators</a></li>
+        <li><a href="#"><i class="fas fa-gem"></i> Premium</a></li>
+      </ul>
+    </nav>
+
+    <button class="mobile-menu-btn" aria-label="Menu" id="mobileMenuBtn">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="auth-buttons">
+      <button class="btn btn-outline">Log In</button>
+      <button class="btn btn-primary">Sign Up</button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobileNav">
+      <ul>
+        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#"><i class="fas fa-fire"></i> Trending</a></li>
+        <li><a href="#"><i class="fas fa-search"></i> Discover</a></li>
+        <li><a href="#"><i class="fas fa-user-friends"></i> Creators</a></li>
+        <li><a href="#"><i class="fas fa-gem"></i> Premium</a></li>
+      </ul>
+
+      <div class="auth-buttons">
+        <button class="btn btn-outline">Log In</button>
+        <button class="btn btn-primary">Sign Up</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <!-- Futuristic Hero Section -->
+  <section class="hero">
+    <div class="hero-background">
+      <!-- Animated gradient background -->
+      <div class="gradient-overlay"></div>
+
+      <!-- Floating abstract shapes -->
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+
+      <!-- Pulse animation elements -->
+      <div class="pulse pulse-1"></div>
+      <div class="pulse pulse-2"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          <span class="title-line">Where Kenyan</span>
+          <span class="title-line">
+            <span class="word-highlight">Elites</span> Connect
+          </span>
+        </h1>
+
+        <p class="hero-subtitle">
+          The <span class="text-gradient">most exclusive</span> dating platform for
+          Kenya's sophisticated singles and content creators
+        </p>
+
+        <div class="hero-buttons">
+          <button class="btn btn-primary btn-hero">
+            <i class="fas fa-heart"></i>
+            <span>Find Your Match</span>
+            <div class="btn-hover-effect"></div>
+          </button>
+
+          <button class="btn btn-premium btn-hero">
+            <i class="fas fa-gem"></i>
+            <span>Join as Creator</span>
+            <div class="btn-hover-effect"></div>
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-featured">
+        <!-- Featured profile cards with hover effects -->
+        <div class="profile-card">
+          <div class="profile-image">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+              alt="Featured Profile" loading="lazy">
+            <div class="profile-badge">
+              <i class="fas fa-check"></i>
+            </div>
+          </div>
+          <div class="profile-info">
+            <h4>James, 28</h4>
+            <p>Nairobi</p>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <div class="profile-image">
+            <img src="https://i.pinimg.com/736x/b9/d1/25/b9d12556aa84a970806573ffe240e89d.jpg" alt="Featured Profile"
+              loading="lazy">
+            <div class="profile-badge">
+              <i class="fas fa-crown"></i>
+            </div>
+          </div>
+          <div class="profile-info">
+            <h4>Sarah, 25</h4>
+            <p>Mombasa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stats-container">
+        <div class="stat-item">
+          <div class="stat-value" data-count="50000">50K+</div>
+          <div class="stat-label">Elite Members</div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-value" data-count="10000">10K+</div>
+          <div class="stat-label">Verified Creators</div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-value" data-count="5000000">5M+</div>
+          <div class="stat-label">Monthly Connections</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- Elite Creators Section -->
+  <section class="elite-creators">
+    <div class="elite-section-header">
+      <h2>Top Kenyan Creators</h2>
+      <a href="#">View All Elite Creators <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="elite-creators-container">
+      <button class="carousel-btn prev" aria-label="Previous">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+
+      <div class="elite-creators-carousel">
+        <!-- Elite Creator 1 -->
+        <div class="elite-creator-card">
+          <div class="elite-card-inner">
+            <div class="elite-card-box">
+              <div class="elite-imgBox">
+                <img src="https://i.pinimg.com/736x/7b/31/38/7b313858f037586992d2f894e0230936.jpg" alt="Creator"
+                  loading="lazy">
+              </div>
+              <div class="elite-more">
+                <ul>
+                  <li><img src="https://i.pinimg.com/736x/25/2d/62/252d62b0427dced99bb40e3618b85d0a.jpg" alt=""
+                      loading="lazy"></li>
+                  <li><img src="https://i.pinimg.com/736x/dc/10/b6/dc10b6f218f9437e53ec6a24daa1f4dc.jpg" alt=""
+                      loading="lazy"></li>
+                  <li><img src="https://i.pinimg.com/736x/cf/89/1e/cf891e5778d3e06c9a63a37ac7de7ac1.jpg" alt=""
+                      loading="lazy"></li>
+                  <li><img src="https://i.pinimg.com/736x/e3/a0/8f/e3a08ffe8fc36a14c5ab9c55740c0131.jpg" alt=""
+                      loading="lazy"><span>50+</span></li>
+                </ul>
+              </div>
+              <div class="elite_flex">
+                <div class="elite-tag">
+                  <a href="#">#Nairobi</a>
+                </div>
+                <div class="elite-creator-info">
+                  <h3>NairobiQueen</h3>
+                  <!-- <p>Fitness Model |elite-tag Elite Creator</p> -->
+                  <span class="elite-price">KSh 799/month</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Elite Creator 2 -->
+        <div class="elite-creator-card">
+          <div class="elite-card-inner">
+            <div class="elite-card-box">
+              <div class="elite-imgBox">
+                <img
+                  src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                  alt="Creator" loading="lazy">
+              </div>
+              <div class="elite-more">
+                <ul>
+                  <li><img
+                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt="" loading="lazy"></li>
+                  <li><img
+                      src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt="" loading="lazy"></li>
+                  <li><img
+                      src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt="" loading="lazy"></li>
+                  <li><img
+                      src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt="" loading="lazy"><span>30+</span></li>
+                </ul>
+              </div>
+              <div class="elite-tag">
+                <a href="#">#Mombasa</a>
+              </div>
+              <div class="elite-creator-info">
+                <h3>MombasaGent</h3>
+                <!-- <p>Luxury Lifestyle | Elite</p> -->
+                <span class="elite-price">KSh 999/month</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Elite Creator 3 -->
+        <div class="elite-creator-card">
+          <div class="elite-card-inner">
+            <div class="elite-card-box">
+              <div class="elite-imgBox">
+                <img src="https://i.pinimg.com/736x/e3/a0/8f/e3a08ffe8fc36a14c5ab9c55740c0131.jpg" alt="Creator"
+                  loading="lazy">
+              </div>
+              <div class="elite-more">
+                <a href="#" class="arrow"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg></a>
+              </div>
+              <div class="elite-tag">
+                <a href="#">#Kisumu</a>
+              </div>
+              <div class="elite-creator-info">
+                <h3>KisumuDiva</h3>
+                <!-- <p>Fashion Influencer | Elite</p> -->
+                <span class="elite-price">KSh 649/month</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Elite Creator 4 -->
+        <div class="elite-creator-card">
+          <div class="elite-card-inner">
+            <div class="elite-card-box">
+              <div class="elite-imgBox">
+                <img src="https://i.pinimg.com/736x/08/d1/db/08d1db111de06bffbec8e36f8c51fa35.jpg" alt="Creator"
+                  loading="lazy">
+              </div>
+              <div class="elite-more">
+                <a href="#" class="arrow"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg></a>
+              </div>
+              <div class="elite-tag">
+                <a href="#">#Nakuru</a>
+              </div>
+              <div class="elite-creator-info">
+                <h3>NakuruBeauty</h3>
+                <!-- <p>Makeup Artist | Elite</p> -->
+                <span class="elite-price">KSh 749/month</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Elite Creator 5 -->
+        <div class="elite-creator-card">
+          <div class="elite-card-inner">
+            <div class="elite-card-box">
+              <div class="elite-imgBox">
+                <img src="https://i.pinimg.com/736x/3f/5f/49/3f5f497ad7605f41eba4aa7a867ff39b.jpg" alt="Creator"
+                  loading="lazy">
+              </div>
+              <div class="elite-more">
+                <a href="#" class="arrow"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg></a>
+              </div>
+              <div class="elite-tag">
+                <a href="#">#Eldoret</a>
+              </div>
+              <div class="elite-creator-info">
+                <h3>EldoretChic</h3>
+                <!-- <p>Fashion Designer | Elite</p> -->
+                <span class="elite-price">KSh 899/month</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Elite Creator 6 -->
+        <div class="elite-creator-card">
+          <div class="elite-card-inner">
+            <div class="elite-card-box">
+              <div class="elite-imgBox">
+                <img src="https://i.pinimg.com/736x/55/01/2a/55012aad56517fad31f76995e72a28d0.jpg" alt="Creator"
+                  loading="lazy">
+              </div>
+              <div class="elite-more">
+                <ul>
+                  <li><img src="https://i.pinimg.com/736x/9b/71/d4/9b71d42725a74b189a1a70ded3c186be.jpg" alt=""
+                      loading="lazy"></li>
+                  <li><img src="https://i.pinimg.com/736x/f8/30/b8/f830b88498da40f8782f1c3ebc58073c.jpg" alt=""
+                      loading="lazy"></li>
+                  <li><img src="https://i.pinimg.com/736x/87/fd/95/87fd95b9ffdc5872532f112b11fd6e9a.jpg" alt=""
+                      loading="lazy"></li>
+                  <li><img
+                      src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                      alt="" loading="lazy"><span>45+</span></li>
+                </ul>
+              </div>
+              <div class="elite-tag">
+                <a href="#">#Malindi</a>
+              </div>
+              <div class="elite-creator-info">
+                <h3>MalindiGoddess</h3>
+                <!-- <p>Travel Vlogger | Elite</p> -->
+                <span class="elite-price">KSh 1099/month</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="elite-creator-card">
+          <div class="elite-card-inner">
+            <div class="elite-card-box">
+              <div class="elite-imgBox">
+                <img src="https://i.pinimg.com/736x/b4/85/11/b48511c5ae867771ba91c6647d6a2362.jpg" alt="Creator"
+                  loading="lazy">
+              </div>
+              <div class="elite-more">
+                <ul>
+                  <li><img src="https://i.pinimg.com/736x/80/ee/b2/80eeb2122fc8b9fc038c88843907e59c.jpg" alt=""
+                      loading="lazy"></li>
+                  <li><img src="https://i.pinimg.com/736x/3f/6f/eb/3f6feb462cfae7abe849f2232c5a548a.jpg" alt=""
+                      loading="lazy"></li>
+                  <li><img src="https://i.pinimg.com/736x/e6/a2/87/e6a2875e9f9e0dfc8f7922b2f71d47fb.jpg" alt=""
+                      loading="lazy"></li>
+                  <li><img
+                      src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                      alt="" loading="lazy"><span>45+</span></li>
+                </ul>
+              </div>
+              <div class="elite-tag">
+                <a href="#">#Nairobi</a>
+              </div>
+              <div class="elite-creator-info">
+                <h3>GothanQueen</h3>
+                <!-- <p>Travel Vlogger | Elite</p> -->
+                <span class="elite-price">KSh 1099/month</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-btn next" aria-label="Next">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="carousel-dots"></div>
+  </section>
+
+
+  <!-- Featured Creators Section -->
+  <section class="creators">
+    <div class="section-header">
+      <h2>Featured Kenyan Creators</h2>
+      <a href="#">View All <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="creators-grid">
+      <!-- Creator Card 1 -->
+      <div class="creator-card">
+        <div class="premium-badge">PREMIUM</div>
+        <img src="https://i.pinimg.com/736x/29/4e/cf/294ecff09ad9f87047d4b6b893b688f4.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>NairobiQueen</h3>
+          <p>Fitness Model | Nairobi</p>
+          <div class="creator-price">
+            <span class="price">KSh 499/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Creator Card 2 -->
+      <div class="creator-card">
+        <div class="premium-badge">PREMIUM</div>
+        <img src="https://i.pinimg.com/736x/4c/df/92/4cdf9209c1eba840e0808d09793849d6.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>MombasaGent</h3>
+          <p>Luxury Lifestyle | Mombasa</p>
+          <div class="creator-price">
+            <span class="price">KSh 799/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Creator Card 3 -->
+      <div class="creator-card">
+        <img src="https://i.pinimg.com/736x/22/50/f2/2250f22adaacf23676c96d1a05ebc265.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>KisumuDiva</h3>
+          <p>Fashion Influencer | Kisumu</p>
+          <div class="creator-price">
+            <span class="price">KSh 349/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Creator Card 4 -->
+      <div class="creator-card">
+        <div class="premium-badge">PREMIUM</div>
+        <img src="https://i.pinimg.com/736x/d4/44/2f/d4442f10acb49da1f0323f5f02da5608.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>EldoretKing</h3>
+          <p>Business Coach | Eldoret</p>
+          <div class="creator-price">
+            <span class="price">KSh 999/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="creator-card">
+        <div class="premium-badge">PREMIUM</div>
+        <img src="https://i.pinimg.com/736x/10/99/16/109916f66be0fd2266b36cb798079131.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>NairobiQueen</h3>
+          <p>Fitness Model | Nairobi</p>
+          <div class="creator-price">
+            <span class="price">KSh 499/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Creator Card 2 -->
+      <div class="creator-card">
+        <div class="premium-badge">PREMIUM</div>
+        <img src="https://i.pinimg.com/736x/c2/12/03/c2120377cbb0463ea664e97a10fd2fbd.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>MombasaGent</h3>
+          <p>Luxury Lifestyle | Mombasa</p>
+          <div class="creator-price">
+            <span class="price">KSh 799/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Creator Card 3 -->
+      <div class="creator-card">
+        <img src="https://i.pinimg.com/736x/a6/ba/ca/a6baca69c9840bd725520fb1d7227dde.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>KisumuDiva</h3>
+          <p>Fashion Influencer | Kisumu</p>
+          <div class="creator-price">
+            <span class="price">KSh 349/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Creator Card 4 -->
+      <div class="creator-card">
+        <div class="premium-badge">PREMIUM</div>
+        <img src="https://i.pinimg.com/736x/3d/0e/36/3d0e367630ec69644634f391256a7cc7.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>EldoretKing</h3>
+          <p>Business Coach | Eldoret</p>
+          <div class="creator-price">
+            <span class="price">KSh 999/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="creator-card">
+        <div class="premium-badge">PREMIUM</div>
+        <img src="https://i.pinimg.com/736x/ff/ee/63/ffee63e6b7a3353f4aace84ef85fafa9.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>EldoretKing</h3>
+          <p>Business Coach | Eldoret</p>
+          <div class="creator-price">
+            <span class="price">KSh 999/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+      <div class="creator-card">
+        <div class="premium-badge">PREMIUM</div>
+        <img src="https://i.pinimg.com/736x/4c/df/30/4cdf30e1a2c5502a42ea1842deb45d74.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>EldoretKing</h3>
+          <p>Business Coach | Eldoret</p>
+          <div class="creator-price">
+            <span class="price">KSh 999/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+      <div class="creator-card">
+        <div class="premium-badge">PREMIUM</div>
+        <img src="https://i.pinimg.com/736x/be/9d/53/be9d53fccde420120bf0fbe1c86ecde1.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>EldoretKing</h3>
+          <p>Business Coach | Eldoret</p>
+          <div class="creator-price">
+            <span class="price">KSh 999/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+      <div class="creator-card">
+        <div class="premium-badge">PREMIUM</div>
+        <img src="https://i.pinimg.com/736x/de/38/53/de385391fc68d60505d5d5fe3d4e0d90.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>EldoretKing</h3>
+          <p>Business Coach | Eldoret</p>
+          <div class="creator-price">
+            <span class="price">KSh 999/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+      <div class="creator-card">
+        <div class="premium-badge">PREMIUM</div>
+        <img src="https://i.pinimg.com/736x/65/36/70/6536709d520f6f6f96b1462205846996.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>EldoretKing</h3>
+          <p>Business Coach | Eldoret</p>
+          <div class="creator-price">
+            <span class="price">KSh 999/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+      <div class="creator-card">
+        <div class="premium-badge">PREMIUM</div>
+        <img src="https://i.pinimg.com/736x/7c/6c/c6/7c6cc62e645ca97555e8206b8d21ca47.jpg" alt="Creator">
+        <div class="creator-info">
+          <h3>EldoretKing</h3>
+          <p>Business Coach | Eldoret</p>
+          <div class="creator-price">
+            <span class="price">KSh 999/month</span>
+            <span class="verified"><i class="fas fa-check-circle"></i> Verified</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="section-header">
+      <h2>Why Choose EliteConnect KE</h2>
+    </div>
+    <div class="features-container">
+      <!-- Feature 1 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-lock"></i>
+        </div>
+        <h3>Secure & Private</h3>
+        <p>Bank-level encryption and discreet billing to protect your privacy and ensure all transactions remain
+          confidential.</p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-money-bill-wave"></i>
+        </div>
+        <h3>Local Payment Options</h3>
+        <p>MPesa, Airtel Money, and Kenyan bank transfers supported for seamless transactions in local currency.</p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-user-shield"></i>
+        </div>
+        <h3>Verified Creators Only</h3>
+        <p>All creators undergo strict verification to ensure authenticity and protect our community from scams.</p>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-video"></i>
+        </div>
+        <h3>Premium Content</h3>
+        <p>Access exclusive photos, videos, and live streams from Kenya's most sought-after personalities.</p>
+      </div>
+
+      <!-- Feature 5 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-heart"></i>
+        </div>
+        <h3>Genuine Connections</h3>
+        <p>Our matching algorithm helps you find compatible partners based on your preferences and interests.</p>
+      </div>
+
+      <!-- Feature 6 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <h3>Creator Earnings</h3>
+        <p>Keep up to 85% of your earnings with weekly payouts directly to your M-Pesa or bank account.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="pricing">
+    <div class="section-header" style="justify-content: center;">
+      <h2>Premium Membership Plans</h2>
+    </div>
+    <p style="max-width: 700px; margin: 0 auto 3rem; opacity: 0.9;">Upgrade your experience with premium features that
+      give you exclusive access and privileges.</p>
+
+    <div class="pricing-cards">
+      <!-- Basic Plan -->
+      <div class="pricing-card">
+        <h3>Basic</h3>
+        <div class="price-amount">KSh 299<span>/month</span></div>
+        <ul class="pricing-features">
+          <li>Access to all free content</li>
+          <li>Basic messaging</li>
+          <li>Standard quality streams</li>
+          <li>5 creator requests/month</li>
+          <li>Basic customer support</li>
+        </ul>
+        <button class="btn btn-outline">Choose Plan</button>
+      </div>
+
+      <!-- Premium Plan (Most Popular) -->
+      <div class="pricing-card popular">
+        <h3>Premium</h3>
+        <div class="price-amount">KSh 799<span>/month</span></div>
+        <ul class="pricing-features">
+          <li>Unlimited messaging</li>
+          <li>HD quality streams</li>
+          <li>20 creator requests/month</li>
+          <li>Priority customer support</li>
+          <li>Exclusive content access</li>
+          <li>Profile boosting</li>
+        </ul>
+        <button class="btn btn-premium">Choose Plan</button>
+      </div>
+
+      <!-- VIP Plan -->
+      <div class="pricing-card">
+        <h3>VIP Elite</h3>
+        <div class="price-amount">KSh 1,999<span>/month</span></div>
+        <ul class="pricing-features">
+          <li>All Premium features</li>
+          <li>Unlimited creator requests</li>
+          <li>4K ultra HD streams</li>
+          <li>24/7 VIP support</li>
+          <li>Personal concierge</li>
+          <li>Exclusive events access</li>
+          <li>Discreet billing</li>
+        </ul>
+        <button class="btn btn-primary">Choose Plan</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="section-header">
+      <h2>What Our Members Say</h2>
+    </div>
+    <div class="testimonial-slider">
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          "EliteConnect KE changed my life! As a creator, I earn 3x what I made on other platforms, and the Kenyan
+          payment system is so convenient. The fans here are genuine and respectful."
+        </div>
+        <div class="testimonial-author">
+          <img
+            src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80"
+            alt="User">
+          <div class="author-info">
+            <h4>Sarah M.</h4>
+            <p>Creator since 2022</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          "I've met amazing Kenyan women here who I would never encounter in my daily life. The verification process
+          gives me confidence that I'm interacting with real people. Worth every shilling!"
+        </div>
+        <div class="testimonial-author">
+          <img
+            src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            alt="User">
+          <div class="author-info">
+            <h4>James K.</h4>
+            <p>VIP Member</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          "Finally a platform that understands Kenyan creators! The M-Pesa integration is flawless, and the support team
+          actually responds quickly. My income has grown steadily since joining."
+        </div>
+        <div class="testimonial-author">
+          <img
+            src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80"
+            alt="User">
+          <div class="author-info">
+            <h4>Lisa W.</h4>
+            <p>Top Creator</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <!-- Column 1 -->
+      <div class="footer-column">
+        <h3>EliteConnect KE</h3>
+        <p>Kenya's premier platform for premium dating and exclusive content. Connecting elite creators with discerning
+          fans since 2021.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="footer-column">
+        <h3>For Fans</h3>
+        <ul>
+          <li><a href="#">Browse Creators</a></li>
+          <li><a href="#">Premium Membership</a></li>
+          <li><a href="#">Safety Guidelines</a></li>
+          <li><a href="#">Payment Methods</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="footer-column">
+        <h3>For Creators</h3>
+        <ul>
+          <li><a href="#">Become a Creator</a></li>
+          <li><a href="#">Creator Dashboard</a></li>
+          <li><a href="#">Earnings Calculator</a></li>
+          <li><a href="#">Content Guidelines</a></li>
+          <li><a href="#">Creator Resources</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="footer-column">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 5 -->
+      <div class="footer-column">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Trust & Safety</a></li>
+          <li><a href="#">Community Guidelines</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2023 EliteConnect KE. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Sitemap</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
