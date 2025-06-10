@@ -1,4 +1,5 @@
-    // Enhanced Mobile Menu Toggle
+
+// Enhanced Mobile Menu Toggle
     document.addEventListener('DOMContentLoaded', function () {
       const mobileMenuBtn = document.getElementById('mobileMenuBtn');
       const mobileNav = document.getElementById('mobileNav');
@@ -853,3 +854,4 @@ document.addEventListener('DOMContentLoaded', function() {
   `;
   document.head.appendChild(dynamicStyles);
 });
+
