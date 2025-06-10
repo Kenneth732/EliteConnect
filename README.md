@@ -67,12 +67,12 @@ To set up this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/eliteconnect-ke.git
+   git clone git@github.com:Kenneth732/EliteConnect.git
    ```
 
 2. Navigate to project directory:
    ```bash
-   cd eliteconnect-ke
+   cd EliteConnect
    ```
 
 3. Open in your preferred code editor
@@ -161,4 +161,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Project Maintainer: Kenneth Mburu  
 Email: kennethmburu21@gmail.com 
-Project Link: [https://github.com/yourusername/eliteconnect-ke](https://github.com/yourusername/eliteconnect-ke)
+Project Link: [git@github.com:Kenneth732/EliteConnect.git](git@github.com:Kenneth732)
